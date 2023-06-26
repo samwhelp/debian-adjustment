@@ -103,3 +103,25 @@ vlc
 ##
 
 mate-media
+
+
+
+
+##
+## ## Package / Env / Qt
+##
+
+qt5-style-plugins
+qt5-gtk2-platformtheme
+qt5-gtk-platformtheme
+qt6-gtk-platformtheme
+
+##
+## apt-cache search svg | grep qt
+##
+
+libqt5svg5
+libqt6svg6
+
+qt5-style-kvantum
+qt5ct
