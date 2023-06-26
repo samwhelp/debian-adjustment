@@ -1,0 +1,105 @@
+
+
+##
+## # Favorite Packages
+##
+
+
+
+
+##
+## ## Package / Tool / Develop
+##
+
+build-essential
+
+
+
+
+##
+## ## Package / Tool / Shell
+##
+
+bash-completion
+
+
+
+
+##
+## ## Package / Tool / Download
+##
+
+
+wget
+curl
+git
+yt-dlp
+
+
+
+##
+## ## Package / Tool / Launcher
+##
+
+rofi
+
+
+
+
+##
+## ## Package / Tool / Terminal
+##
+
+sakura
+xfce4-terminal
+
+
+
+##
+## ## Package / Tool / File Manager
+##
+
+pcmanfm-qt
+pcmanfm
+
+
+
+
+##
+## ## Package / Tool / Text Editor
+##
+
+mousepad
+vim
+neovim
+micro
+nano
+
+
+
+
+##
+## ## Package / Tool / Image Viewer
+##
+
+viewnior
+
+
+
+
+##
+## ## Package / Tool / Video Player
+##
+
+mpv
+smplayer
+vlc
+
+
+
+
+##
+## ## Package / Tool / Media
+##
+
+mate-media

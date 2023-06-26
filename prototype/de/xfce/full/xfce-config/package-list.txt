@@ -1,0 +1,25 @@
+
+
+##
+## # Xfce
+##
+
+
+##
+## ## Arch Package Group
+##
+
+xfce4
+xfce4-goodies
+
+
+##
+## ## Arch Package
+##
+
+mate-media
+
+
+##
+## ## AUR Package
+##
