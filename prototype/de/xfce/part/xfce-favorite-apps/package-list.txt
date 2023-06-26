@@ -168,3 +168,43 @@ fcitx5-chinese-addons
 fcitx5-table
 fcitx5-m17n
 
+
+
+
+##
+## ## Package / Theme
+##
+
+gtk2-engines-murrine
+
+
+
+
+##
+## ## Package / Theme / breeze
+##
+
+breeze-gtk-theme
+breeze-icon-theme
+breeze-cursor-theme
+xfwm4-theme-breeze
+
+
+
+
+##
+## ## Package / Theme / numix
+##
+
+numix-gtk-theme
+numix-icon-theme
+numix-icon-theme-circle
+
+
+
+
+##
+## ## Package / Theme / papirus
+##
+
+papirus-icon-theme
