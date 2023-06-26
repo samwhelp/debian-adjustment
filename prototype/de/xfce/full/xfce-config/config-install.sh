@@ -26,6 +26,8 @@ xfce_config_install () {
 
 	dconf_config_install
 
+	gsettings_config_install
+
 
 	echo
 
@@ -157,6 +159,42 @@ dconf_config_install_update_db () {
 ##
 ### Tail: dconf
 ################################################################################
+
+
+################################################################################
+### Head: gsettings
+##
+
+gsettings_config_install () {
+
+	echo
+	echo
+	echo
+	echo
+	echo "##"
+	echo "## Config: gsettings"
+	echo "##"
+	echo
+
+	gsettings_config_install_glib_compile_schemas
+
+	echo
+
+}
+
+
+gsettings_config_install_glib_compile_schemas () {
+
+	echo
+	echo "sudo glib-compile-schemas /usr/share/glib-2.0/schemas/"
+	sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
+
+}
+
+##
+### Tail: gsettings
+################################################################################
+
 
 
 ################################################################################
