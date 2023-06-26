@@ -17,6 +17,40 @@
 | [xfce4-goodies](https://packages.debian.org/sid/xfce4-goodies) |
 
 
+## Note
+
+## qt5ct
+
+run
+
+``` sh
+dpkg -S /etc/X11/Xsession.d/99qt5ct
+```
+
+show
+
+```
+qt5ct: /etc/X11/Xsession.d/99qt5ct
+```
+
+run
+
+``` sh
+cat /etc/X11/Xsession.d/99qt5ct
+```
+
+show
+
+```
+# Enable qt5ct by default unless another PLATFORMTHEME option is set
+# or KDE is running.
+if [ -z "$QT_QPA_PLATFORMTHEME" ] && [ "$XDG_CURRENT_DESKTOP" != "KDE" ]
+then
+        export QT_QPA_PLATFORMTHEME=qt5ct
+fi
+```
+
+
 ## Howto
 
 
