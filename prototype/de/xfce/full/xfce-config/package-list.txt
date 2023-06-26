@@ -5,21 +5,161 @@
 ##
 
 
+
+
 ##
-## ## Arch Package Group
+## ## Package / Desktop Environment / Xfce
 ##
 
 xfce4
 xfce4-goodies
 
 
+
+
 ##
-## ## Arch Package
+## ## Package / Tool / Develop
+##
+
+build-essential
+
+
+
+
+##
+## ## Package / Tool / Shell
+##
+
+bash-completion
+
+
+
+
+##
+## ## Package / Tool / Download
+##
+
+
+wget
+curl
+git
+yt-dlp
+
+
+
+##
+## ## Package / Tool / Launcher
+##
+
+rofi
+
+
+
+
+##
+## ## Package / Tool / Terminal
+##
+
+sakura
+xfce4-terminal
+
+
+
+##
+## ## Package / Tool / File Manager
+##
+
+pcmanfm-qt
+pcmanfm
+
+
+
+
+##
+## ## Package / Tool / Archiver
+##
+
+engrampa
+lxqt-archiver
+
+p7zip-full
+unrar-free
+
+
+
+
+##
+## ## Package / Tool / Text Editor
+##
+
+mousepad
+vim
+neovim
+micro
+nano
+
+
+
+
+##
+## ## Package / Tool / Image Viewer
+##
+
+viewnior
+
+
+
+
+##
+## ## Package / Tool / Video Player
+##
+
+mpv
+smplayer
+vlc
+
+
+
+
+##
+## ## Package / Tool / Audio Player
+##
+
+audacious
+
+
+
+
+##
+## ## Package / Tool / Media
 ##
 
 mate-media
 
 
+
+
 ##
-## ## AUR Package
+## ## Package / Env / Qt
 ##
+
+qt5-style-plugins
+qt5-gtk2-platformtheme
+qt5-gtk-platformtheme
+qt6-gtk-platformtheme
+
+##
+## apt-cache search svg | grep qt
+##
+
+libqt5svg5
+libqt6svg6
+
+qt5-style-kvantum
+qt5ct
+
+
+
+
+
+

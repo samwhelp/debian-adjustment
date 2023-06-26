@@ -8,8 +8,9 @@
 
 
 ##
-## ## Debian Package
+## ## Package / Desktop Environment / Xfce
 ##
 
 xfce4
 xfce4-goodies
+

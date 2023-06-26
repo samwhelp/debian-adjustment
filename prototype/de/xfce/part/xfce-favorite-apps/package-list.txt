@@ -66,6 +66,19 @@ pcmanfm
 
 
 ##
+## ## Package / Tool / Archiver
+##
+
+engrampa
+lxqt-archiver
+
+p7zip-full
+unrar-free
+
+
+
+
+##
 ## ## Package / Tool / Text Editor
 ##
 
@@ -99,6 +112,15 @@ vlc
 
 
 ##
+## ## Package / Tool / Audio Player
+##
+
+audacious
+
+
+
+
+##
 ## ## Package / Tool / Media
 ##
 
@@ -125,3 +147,8 @@ libqt6svg6
 
 qt5-style-kvantum
 qt5ct
+
+
+
+
+
