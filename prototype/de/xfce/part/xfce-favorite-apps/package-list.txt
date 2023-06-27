@@ -12,6 +12,7 @@
 ##
 
 build-essential
+python3-github
 
 
 
