@@ -20,6 +20,8 @@ theme_asset_install () {
 
 	theme_gtk_gruvbox_asset_install
 
+	theme_icon_gruvbox_dark_asset_install
+
 
 	echo
 
@@ -37,6 +39,10 @@ theme_asset_install () {
 ##
 
 theme_gtk_gruvbox_asset_install () {
+
+	##
+	## * [gtk-theme-gruvbox](https://github.com/samwhelp/gruvbox-theme-collection/tree/gtk-theme-gruvbox)
+	##
 
 	mkdir -p "${HOME}/.cache/manual-install/gtk-theme-gruvbox"
 
@@ -57,6 +63,41 @@ theme_gtk_gruvbox_asset_install () {
 ##
 ### Tail: theme / gtk / gruvbox
 ################################################################################
+
+################################################################################
+### Head: theme / icon / gruvbox
+##
+
+theme_icon_gruvbox_dark_asset_install () {
+
+	##
+	## * [gtk-theme-gruvbox](https://github.com/samwhelp/gruvbox-theme-collection/tree/icon-theme-gruvbox-dark)
+	##
+
+	mkdir -p "${HOME}/.cache/manual-install/icon-theme-gruvbox-dark"
+
+	wget -c "https://github.com/samwhelp/gruvbox-theme-collection/archive/refs/heads/icon-theme-gruvbox-dark.tar.gz" -O "${HOME}/.cache/manual-install/icon-theme-gruvbox-dark/icon-theme-gruvbox-dark.tar.gz"
+
+
+	mkdir -p "${HOME}/.cache/manual-install/icon-theme-gruvbox-dark/src"
+
+
+	tar xf "${HOME}/.cache/manual-install/icon-theme-gruvbox-dark/icon-theme-gruvbox-dark.tar.gz" -C "${HOME}/.cache/manual-install/icon-theme-gruvbox-dark/src"
+
+
+	cp -rf "${HOME}/.cache/manual-install/icon-theme-gruvbox-dark/src/gruvbox-theme-collection-icon-theme-gruvbox-dark/." "${HOME}/.icons/Gruvbox-Dark"
+
+	#update-icon-caches "${HOME}/.icons/Gruvbox-Dark"
+	gtk-update-icon-cache "${HOME}/.icons/Gruvbox-Dark"
+
+
+}
+
+
+##
+### Tail: theme / icon / gruvbox-dark
+################################################################################
+
 
 
 ################################################################################
