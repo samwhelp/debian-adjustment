@@ -1,0 +1,15 @@
+
+
+##
+## # lightdm
+##
+
+
+
+
+##
+## ## Package / Display Manager / lightdm
+##
+
+lightdm
+lightdm-gtk-greeter
