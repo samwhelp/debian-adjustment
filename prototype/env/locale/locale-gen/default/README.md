@@ -7,7 +7,6 @@
 | Config File Path |
 | --- |
 | [/etc/locale.gen](./asset/overlay/etc/locale.gen) |
-| [/etc/lightdm/lightdm.conf](https://github.com/samwhelp/debian-adjustment/blob/main/prototype/dm/lightdm/lightdm-gtk-greeter/default/asset/overlay/etc/lightdm/lightdm.conf) |
 
 
 ## Debian Package
