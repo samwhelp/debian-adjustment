@@ -22,7 +22,7 @@ theme_asset_install () {
 
 	theme_icon_gruvbox_dark_asset_install
 
-	theme_xfwm_rgaps_blend_nobuttons_asset_install
+	theme_gtk_gruvbox_dark_asset_install
 
 
 	echo
@@ -97,30 +97,30 @@ theme_icon_gruvbox_dark_asset_install () {
 
 
 ################################################################################
-### Head: theme / xfwm / rgaps-blend-nobuttons
+### Head: theme / gtk / gruvbox-dark
 ##
 
-theme_xfwm_rgaps_blend_nobuttons_asset_install () {
+theme_gtk_gruvbox_dark_asset_install () {
 
 	##
-	## * [rgaps-blend-nobuttons](https://github.com/samwhelp/rgaps-theme-collection/tree/rgaps-blend-nobuttons)
+	## * [gtk-theme-gruvbox-dark](https://github.com/samwhelp/gruvbox-theme-collection/tree/gtk-theme-gruvbox-dark)
 	##
 
-	mkdir -p "${HOME}/.cache/manual-install/rgaps-blend-nobuttons"
+	mkdir -p "${HOME}/.cache/manual-install/gtk-theme-gruvbox-dark"
 
-	wget -c "https://github.com/samwhelp/rgaps-theme-collection/archive/refs/heads/rgaps-blend-nobuttons.tar.gz" -O "${HOME}/.cache/manual-install/rgaps-blend-nobuttons/rgaps-theme-collection-rgaps-blend-nobuttons.tar.gz"
+	wget -c "https://github.com/samwhelp/gruvbox-theme-collection/archive/refs/heads/gtk-theme-gruvbox-dark.tar.gz" -O "${HOME}/.cache/manual-install/gtk-theme-gruvbox-dark/gruvbox-theme-collection-gtk-theme-gruvbox-dark.tar.gz"
 
-	tar xf "${HOME}/.cache/manual-install/rgaps-blend-nobuttons/rgaps-theme-collection-rgaps-blend-nobuttons.tar.gz" -C "${HOME}/.cache/manual-install/rgaps-blend-nobuttons"
+	tar xf "${HOME}/.cache/manual-install/gtk-theme-gruvbox-dark/gruvbox-theme-collection-gtk-theme-gruvbox-dark.tar.gz" -C "${HOME}/.cache/manual-install/gtk-theme-gruvbox-dark"
 
-	mkdir -p "${HOME}/.themes/RGapsBlendNoButtons"
+	mkdir -p "${HOME}/.themes/Gruvbox-Dark"
 
-	cp -rf "${HOME}/.cache/manual-install/rgaps-blend-nobuttons/rgaps-theme-collection-rgaps-blend-nobuttons/." "${HOME}/.themes/RGapsBlendNoButtons"
+	cp -rf "${HOME}/.cache/manual-install/gtk-theme-gruvbox-dark/gruvbox-theme-collection-gtk-theme-gruvbox-dark/." "${HOME}/.themes/Gruvbox-Dark"
 
 }
 
 
 ##
-### Tail: theme / xfwm / rgaps
+### Tail: theme / gtk / gruvbox-dark
 ################################################################################
 
 

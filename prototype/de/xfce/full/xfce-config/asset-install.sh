@@ -149,7 +149,7 @@ theme_xfwm_rgaps_blend_nobuttons_asset_install () {
 
 
 ##
-### Tail: theme / xfwm / rgaps
+### Tail: theme / xfwm / rgaps-blend-nobuttons
 ################################################################################
 
 
