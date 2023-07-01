@@ -52,6 +52,8 @@ theme_gtk_gruvbox_asset_install () {
 
 	tar xf "${HOME}/.cache/manual-install/gtk-theme-gruvbox/gruvbox-theme-collection-gtk-theme-gruvbox.tar.gz" -C "${HOME}/.cache/manual-install/gtk-theme-gruvbox"
 
+	mkdir -p "${HOME}/.themes/Gruvbox"
+
 	cp -rf "${HOME}/.cache/manual-install/gtk-theme-gruvbox/gruvbox-theme-collection-gtk-theme-gruvbox/." "${HOME}/.themes/Gruvbox"
 
 }
@@ -77,6 +79,8 @@ theme_icon_gruvbox_dark_asset_install () {
 	wget -c "https://github.com/samwhelp/gruvbox-theme-collection/archive/refs/heads/icon-theme-gruvbox-dark.tar.gz" -O "${HOME}/.cache/manual-install/icon-theme-gruvbox-dark/gruvbox-theme-collection-icon-theme-gruvbox-dark.tar.gz"
 
 	tar xf "${HOME}/.cache/manual-install/icon-theme-gruvbox-dark/gruvbox-theme-collection-icon-theme-gruvbox-dark.tar.gz" -C "${HOME}/.cache/manual-install/icon-theme-gruvbox-dark"
+
+	mkdir -p "${HOME}/.icons/Gruvbox-Dark"
 
 	cp -rf "${HOME}/.cache/manual-install/icon-theme-gruvbox-dark/gruvbox-theme-collection-icon-theme-gruvbox-dark/." "${HOME}/.icons/Gruvbox-Dark"
 
@@ -107,6 +111,8 @@ theme_xfwm_rgaps_blend_nobuttons_asset_install () {
 	wget -c "https://github.com/samwhelp/rgaps-theme-collection/archive/refs/heads/rgaps-blend-nobuttons.tar.gz" -O "${HOME}/.cache/manual-install/rgaps-blend-nobuttons/rgaps-theme-collection-rgaps-blend-nobuttons.tar.gz"
 
 	tar xf "${HOME}/.cache/manual-install/rgaps-blend-nobuttons/rgaps-theme-collection-rgaps-blend-nobuttons.tar.gz" -C "${HOME}/.cache/manual-install/rgaps-blend-nobuttons"
+
+	mkdir -p "${HOME}/.themes/RGapsBlendNoButtons"
 
 	cp -rf "${HOME}/.cache/manual-install/rgaps-blend-nobuttons/rgaps-theme-collection-rgaps-blend-nobuttons/." "${HOME}/.themes/RGapsBlendNoButtons"
 
