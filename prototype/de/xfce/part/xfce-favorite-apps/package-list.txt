@@ -38,6 +38,16 @@ yt-dlp
 
 
 
+
+##
+## ## Package / Tool / Dock
+##
+
+plank
+
+
+
+
 ##
 ## ## Package / Tool / Launcher
 ##
@@ -53,6 +63,7 @@ rofi
 
 sakura
 xfce4-terminal
+
 
 
 
