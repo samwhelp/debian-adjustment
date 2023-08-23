@@ -26,7 +26,7 @@
 
 | Debian Package |
 | --- |
-| [konsole](https://packages.debian.org/sid/konsole) |
+| [konsole](https://packages.debian.org/stable/konsole) |
 
 
 ## Howto

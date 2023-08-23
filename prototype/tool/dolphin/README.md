@@ -25,7 +25,7 @@
 
 | Debian Package |
 | --- |
-| [dolphin](https://packages.debian.org/sid/dolphin) |
+| [dolphin](https://packages.debian.org/stable/dolphin) |
 
 
 ## Howto

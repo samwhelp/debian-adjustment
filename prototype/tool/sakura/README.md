@@ -13,7 +13,7 @@
 
 | Debian Package |
 | --- |
-| [sakura](https://packages.debian.org/sid/sakura) |
+| [sakura](https://packages.debian.org/stable/sakura) |
 
 
 ## Howto
