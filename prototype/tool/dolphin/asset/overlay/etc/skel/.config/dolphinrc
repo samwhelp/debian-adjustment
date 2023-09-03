@@ -35,5 +35,11 @@ Places Icons Static Size=22
 MenuBar=Disabled
 ToolBarsMovable=Disabled
 
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,opendocumentthumbnail,svgthumbnail,windowsexethumbnail,windowsimagethumbnail,ffmpegthumbs,gsthumbnail,mobithumbnail,rawthumbnail,directorythumbnail,webarchivethumbnail,blenderthumbnail
