@@ -29,13 +29,13 @@ viewnior_config_install_by_dir () {
 
 
 	echo
-	echo "mkdir -p ${HOME}/.config/viewnior"
-	mkdir -p "${HOME}/.config/viewnior"
+	echo "mkdir -p ${HOME}"
+	mkdir -p "${HOME}"
 
 
 	echo
-	echo "cp -rf ./asset/overlay/etc/skel/.config/viewnior/. ${HOME}/.config/viewnior"
-	cp -rf "./asset/overlay/etc/skel/.config/viewnior/." "${HOME}/.config/viewnior"
+	echo "cp -rf ./asset/overlay/etc/skel/. ${HOME}"
+	cp -rf "./asset/overlay/etc/skel/." "${HOME}"
 
 
 }

@@ -29,13 +29,13 @@ mpv_config_install_by_dir () {
 
 
 	echo
-	echo "mkdir -p ${HOME}/.config/mpv"
-	mkdir -p "${HOME}/.config/mpv"
+	echo "mkdir -p ${HOME}"
+	mkdir -p "${HOME}"
 
 
 	echo
-	echo "cp -rf ./asset/overlay/etc/skel/.config/mpv/. ${HOME}/.config/mpv"
-	cp -rf "./asset/overlay/etc/skel/.config/mpv/." "${HOME}/.config/mpv"
+	echo "cp -rf ./asset/overlay/etc/skel/. ${HOME}"
+	cp -rf "./asset/overlay/etc/skel/." "${HOME}"
 
 
 }
