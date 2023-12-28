@@ -93,5 +93,6 @@ has_children: true
 
 ## Media Player
 
-
-
+| [Media Player](https://samwhelp.github.io/note-about-debian/read/subject/tool/media-player.html) | Adjustment |
+| --- | --- |
+| [mpv](https://samwhelp.github.io/note-about-debian/read/subject/tool/media-player/mpv.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/mpv) |
