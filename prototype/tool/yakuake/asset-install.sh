@@ -10,9 +10,6 @@ set -e
 yakuake_asset_install () {
 
 	echo
-	echo
-	echo
-	echo
 	echo "##"
 	echo "## Asset: yakuake"
 	echo "##"

@@ -10,9 +10,6 @@ set -e
 konsole_asset_install () {
 
 	echo
-	echo
-	echo
-	echo
 	echo "##"
 	echo "## Asset: konsole"
 	echo "##"

@@ -10,9 +10,6 @@ set -e
 krunner_asset_install () {
 
 	echo
-	echo
-	echo
-	echo
 	echo "##"
 	echo "## Asset: krunner"
 	echo "##"

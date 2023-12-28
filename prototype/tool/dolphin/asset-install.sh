@@ -10,9 +10,6 @@ set -e
 dolphin_asset_install () {
 
 	echo
-	echo
-	echo
-	echo
 	echo "##"
 	echo "## Asset: dolphin"
 	echo "##"

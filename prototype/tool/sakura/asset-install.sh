@@ -10,9 +10,6 @@ set -e
 sakura_asset_install () {
 
 	echo
-	echo
-	echo
-	echo
 	echo "##"
 	echo "## Asset: sakura"
 	echo "##"

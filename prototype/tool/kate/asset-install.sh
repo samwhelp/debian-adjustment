@@ -10,9 +10,6 @@ set -e
 kate_asset_install () {
 
 	echo
-	echo
-	echo
-	echo
 	echo "##"
 	echo "## Asset: kate"
 	echo "##"

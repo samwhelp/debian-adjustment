@@ -10,9 +10,6 @@ set -e
 gwenview_asset_install () {
 
 	echo
-	echo
-	echo
-	echo
 	echo "##"
 	echo "## Asset: gwenview"
 	echo "##"

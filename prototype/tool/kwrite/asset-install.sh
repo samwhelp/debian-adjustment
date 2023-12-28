@@ -10,9 +10,6 @@ set -e
 kwrite_asset_install () {
 
 	echo
-	echo
-	echo
-	echo
 	echo "##"
 	echo "## Asset: kwrite"
 	echo "##"
