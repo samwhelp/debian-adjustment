@@ -38,7 +38,6 @@ sakura_config_install_by_dir () {
 	cp -rf "./asset/overlay/etc/skel/.config/sakura/." "${HOME}/.config/sakura"
 
 
-
 }
 
 sakura_config_install_by_each_file () {
@@ -51,6 +50,7 @@ sakura_config_install_by_each_file () {
 	echo
 	echo "install -Dm644 ./asset/overlay/etc/skel/.config/sakura/sakura.conf ${HOME}/.config/sakura/sakura.conf"
 	install -Dm644 "./asset/overlay/etc/skel/.config/sakura/sakura.conf" "${HOME}/.config/sakura/sakura.conf"
+
 
 }
 
