@@ -12,7 +12,7 @@ grand_parent: Tool
 
 ## Subject
 
-* [Adjustment](#Adjustment)
+* [Adjustment](#adjustment)
 * [Debian Package Search](#debian-package-search)
 * [Debian Package](#debian-package)
 * [Config File Path](#config-file-path)

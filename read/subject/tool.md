@@ -15,7 +15,7 @@ has_children: true
 
 ## Subject
 
-* [Adjustment](#Adjustment)
+* [Adjustment](#adjustment)
 * [Launcher](#launcher)
 * [File Manager](#file-manager)
 * [Text Editor](#text-editor)
