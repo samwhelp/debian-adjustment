@@ -29,13 +29,13 @@ rofi_config_install_by_dir () {
 
 
 	echo
-	echo "mkdir -p ${HOME}/.config/rofi"
-	mkdir -p "${HOME}/.config/rofi"
+	echo "mkdir -p ${HOME}"
+	mkdir -p "${HOME}"
 
 
 	echo
-	echo "cp -rf ./asset/overlay/etc/skel/.config/rofi/. ${HOME}/.config/rofi"
-	cp -rf "./asset/overlay/etc/skel/.config/rofi/." "${HOME}/.config/rofi"
+	echo "cp -rf ./asset/overlay/etc/skel/. ${HOME}"
+	cp -rf "./asset/overlay/etc/skel/." "${HOME}"
 
 
 }
