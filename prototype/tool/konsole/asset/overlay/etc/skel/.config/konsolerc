@@ -1,5 +1,5 @@
 [Desktop Entry]
-DefaultProfile=Main.profile
+DefaultProfile=Gruvbox.profile
 
 [General]
 ConfigVersion=1
@@ -13,6 +13,7 @@ ToolButtonStyle=IconOnly
 
 [TabBar]
 ExpandTabWidth=true
+TabBarPosition=Bottom
 
 [Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
