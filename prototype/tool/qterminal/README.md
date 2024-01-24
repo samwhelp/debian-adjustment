@@ -1,19 +1,19 @@
 
-# Mpv
+# QTerminal
 
 
 ## Config File Path
 
 | Config File Path |
 | --- |
-| [~/.config/mpv/mpv.conf](./asset/overlay/etc/skel/.config/mpv/mpv.conf) |
+| [~/.config/qterminal.org/qterminal.ini](./asset/overlay/etc/skel/.config/qterminal.org/qterminal.ini) |
 
 
 ## Debian Package
 
 | Debian Package |
 | --- |
-| [mpv](https://packages.debian.org/stable/mpv) |
+| [qterminal](https://packages.debian.org/stable/qterminal) |
 
 
 ## Howto

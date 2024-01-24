@@ -1,14 +1,14 @@
 
 
 ##
-## # mpv
+## # qterminal
 ##
 
 
 
 
 ##
-## ## Package / mpv
+## ## Package / qterminal
 ##
 
-mpv
+qterminal
