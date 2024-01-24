@@ -10,4 +10,4 @@ parent: Tool
 
 | File Manager | Adjustment |
 | --- | --- |
-| [dolphin](https://samwhelp.github.io/note-about-debian/read/subject/tool/file-manager/dolphin.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/dolphin) |
+| [dolphin](https://samwhelp.github.io/debian-adjustment/read/subject/tool/file-manager/dolphin.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/dolphin) |

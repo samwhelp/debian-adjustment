@@ -10,6 +10,7 @@ parent: Tool
 
 | Terminal | Adjustment |
 | --- | --- |
-| [sakura](https://samwhelp.github.io/note-about-debian/read/subject/tool/terminal/sakura.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/sakura) |
-| [konsole](https://samwhelp.github.io/note-about-debian/read/subject/tool/terminal/konsole.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/konsole) |
-| [yakuake](https://samwhelp.github.io/note-about-debian/read/subject/tool/terminal/yakuake.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/yakuake) |
+| [sakura](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/sakura.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/sakura) |
+| [konsole](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/konsole.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/konsole) |
+| [yakuake](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/yakuake.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/yakuake) |
+| [qterminal](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/qterminal.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/qterminal) |

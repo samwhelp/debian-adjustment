@@ -39,29 +39,29 @@ has_children: true
 
 ## Launcher
 
-| [Launcher](https://samwhelp.github.io/note-about-debian/read/subject/tool/launcher.html) | Adjustment |
+| [Launcher](https://samwhelp.github.io/debian-adjustment/read/subject/tool/launcher.html) | Adjustment |
 | --- | --- |
-| [rofi](https://samwhelp.github.io/note-about-debian/read/subject/tool/launcher/rofi.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/rofi) |
-| [krunner](https://samwhelp.github.io/note-about-debian/read/subject/tool/launcher/krunner.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/krunner) |
+| [rofi](https://samwhelp.github.io/debian-adjustment/read/subject/tool/launcher/rofi.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/rofi) |
+| [krunner](https://samwhelp.github.io/debian-adjustment/read/subject/tool/launcher/krunner.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/krunner) |
 
 
 
 
 ## File Manager
 
-| [File Manager](https://samwhelp.github.io/note-about-debian/read/subject/tool/file-manager.html) | Adjustment |
+| [File Manager](https://samwhelp.github.io/debian-adjustment/read/subject/tool/file-manager.html) | Adjustment |
 | --- | --- |
-| [dolphin](https://samwhelp.github.io/note-about-debian/read/subject/tool/file-manager/dolphin.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/dolphin) |
+| [dolphin](https://samwhelp.github.io/debian-adjustment/read/subject/tool/file-manager/dolphin.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/dolphin) |
 
 
 
 
 ## Text Editor
 
-| [Text Editor]((https://samwhelp.github.io/note-about-debian/read/subject/tool/text-editor.html)) | Adjustment |
+| [Text Editor]((https://samwhelp.github.io/debian-adjustment/read/subject/tool/text-editor.html)) | Adjustment |
 | --- | --- |
-| [kate](https://samwhelp.github.io/note-about-debian/read/subject/tool/text-editor/kate.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/kate) |
-| [kwrite](https://samwhelp.github.io/note-about-debian/read/subject/tool/text-editor/kwrite.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/kwrite) |
+| [kate](https://samwhelp.github.io/debian-adjustment/read/subject/tool/text-editor/kate.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/kate) |
+| [kwrite](https://samwhelp.github.io/debian-adjustment/read/subject/tool/text-editor/kwrite.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/kwrite) |
 
 
 
@@ -72,27 +72,28 @@ has_children: true
 
 ## Terminal
 
-| [Terminal](https://samwhelp.github.io/note-about-debian/read/subject/tool/terminal.html) | Adjustment |
+| [Terminal](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal.html) | Adjustment |
 | --- | --- |
-| [sakura](https://samwhelp.github.io/note-about-debian/read/subject/tool/terminal/sakura.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/sakura) |
-| [konsole](https://samwhelp.github.io/note-about-debian/read/subject/tool/terminal/konsole.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/sakura) |
-| [yakuake](https://samwhelp.github.io/note-about-debian/read/subject/tool/terminal/yakuake.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/sakura) |
+| [sakura](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/sakura.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/sakura) |
+| [konsole](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/konsole.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/sakura) |
+| [yakuake](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/yakuake.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/sakura) |
+| [qterminal](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/qterminal.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/qterminal) |
 
 
 
 
 ## Image Viewer
 
-| [Image Viewer](https://samwhelp.github.io/note-about-debian/read/subject/tool/image-viewer.html) | Adjustment |
+| [Image Viewer](https://samwhelp.github.io/debian-adjustment/read/subject/tool/image-viewer.html) | Adjustment |
 | --- | --- |
-| [viewnior](https://samwhelp.github.io/note-about-debian/read/subject/tool/image-viewer/viewnior.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/viewnior) |
-| [gwenview](https://samwhelp.github.io/note-about-debian/read/subject/tool/image-viewer/gwenview.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/gwenview) |
+| [viewnior](https://samwhelp.github.io/debian-adjustment/read/subject/tool/image-viewer/viewnior.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/viewnior) |
+| [gwenview](https://samwhelp.github.io/debian-adjustment/read/subject/tool/image-viewer/gwenview.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/gwenview) |
 
 
 
 
 ## Media Player
 
-| [Media Player](https://samwhelp.github.io/note-about-debian/read/subject/tool/media-player.html) | Adjustment |
+| [Media Player](https://samwhelp.github.io/debian-adjustment/read/subject/tool/media-player.html) | Adjustment |
 | --- | --- |
-| [mpv](https://samwhelp.github.io/note-about-debian/read/subject/tool/media-player/mpv.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/mpv) |
+| [mpv](https://samwhelp.github.io/debian-adjustment/read/subject/tool/media-player/mpv.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/mpv) |

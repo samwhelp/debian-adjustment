@@ -10,5 +10,5 @@ parent: Tool
 
 | Image Viewer | Adjustment |
 | --- | --- |
-| [viewnior](https://samwhelp.github.io/note-about-debian/read/subject/tool/image-viewer/viewnior.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/viewnior) |
-| [gwenview](https://samwhelp.github.io/note-about-debian/read/subject/tool/image-viewer/gwenview.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/gwenview) |
+| [viewnior](https://samwhelp.github.io/debian-adjustment/read/subject/tool/image-viewer/viewnior.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/viewnior) |
+| [gwenview](https://samwhelp.github.io/debian-adjustment/read/subject/tool/image-viewer/gwenview.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/gwenview) |
