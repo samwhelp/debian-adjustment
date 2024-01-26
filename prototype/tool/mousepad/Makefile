@@ -16,6 +16,8 @@ help:
 	@echo
 	@echo '	$$ make asset-install'
 	@echo
+	@echo '	$$ make prototype-install'
+	@echo
 	@echo '	$$ make config-install'
 	@echo
 
@@ -36,6 +38,11 @@ package-install:
 asset-install:
 	@./asset-install.sh
 .PHONY: asset-install
+
+
+prototype-install:
+	@./prototype-install.sh
+.PHONY: prototype-install
 
 
 config-install:
