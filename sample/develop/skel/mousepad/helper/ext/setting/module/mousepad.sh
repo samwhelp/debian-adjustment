@@ -71,6 +71,16 @@ mousepad_asset_install () {
 }
 
 
+mousepad_prototype_install () {
+
+	#util_error_echo "mousepad_prototype_install"
+
+	util_error_echo "!!! Do Nothing !!!"
+
+	return 0
+}
+
+
 ##
 ### Tail: Setting / Module / Mousepad / Portal
 ################################################################################
