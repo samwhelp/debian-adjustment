@@ -164,15 +164,15 @@ budgie_keybind_main_settings_set_all () {
 
 budgie_keybind_main_gschema_put_all () {
 
-	budgie_keybind_main_gschema_put_keybind
+	budgie_keybind_main_gschema_put_keybind_main
 
-	budgie_keybind_main_gschema_put_workspace
+	budgie_keybind_main_gschema_put_workspace_main
 
 	return 0
 }
 
 
-budgie_keybind_main_gschema_put_keybind () {
+budgie_keybind_main_gschema_put_keybind_main () {
 
 	local source_gschema_override_file_path="${THE_BUDGIE_KEYBIND_MAIN_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH}"
 
@@ -191,7 +191,7 @@ budgie_keybind_main_gschema_put_keybind () {
 	return 0
 }
 
-budgie_keybind_main_gschema_put_workspace () {
+budgie_keybind_main_gschema_put_workspace_main () {
 
 	local source_gschema_override_file_path="${THE_BUDGIE_WORKSPACE_MAIN_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH}"
 
