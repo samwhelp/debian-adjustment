@@ -3,39 +3,49 @@
 set -e
 
 
-### Head: pkg_install ##########################################################
-#
-gnome_terminal_pkg_install () {
+################################################################################
+### Head: package_install
+##
+
+gnome_terminal_package_install () {
 
 	echo
 
-	echo '### Head: gnome_terminal_pkg_install ###########################################'
-	echo '#'
+	echo "################################################################################"
+	echo "### Head: gnome_terminal_package_install"
+	echo "##"
+	echo
 
 	sudo apt-get install gnome-terminal
 
-	echo '#'
-	echo '### Tail: gnome_terminal_pkg_install ###########################################'
+	echo
+	echo "##"
+	echo "### Tail: gnome_terminal_package_install"
+	echo "################################################################################"
 	echo
 
 }
-#
-### Tail: pkg_install ##########################################################
+
+##
+### Tail: package_install
+################################################################################
 
 
-### Head: conf_set #############################################################
-#
-gnome_terminal_conf_set () {
+################################################################################
+### Head: config_install
+##
 
-	echo
-
-	echo '### Head: gnome_terminal_conf_set ##############################################'
-	echo '#'
-
-
+gnome_terminal_config_install () {
 
 	echo
-	echo 'gsettings set org.gnome.Terminal.Legacy.Settings default-show-menubar false'
+	echo "################################################################################"
+	echo "### Head: gnome_terminal_config_install"
+	echo "##"
+	echo
+
+
+	echo
+	echo "gsettings set org.gnome.Terminal.Legacy.Settings default-show-menubar false"
 	gsettings set org.gnome.Terminal.Legacy.Settings default-show-menubar false
 
 
@@ -57,7 +67,7 @@ gnome_terminal_conf_set () {
 	gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/" scrollbar-policy 'never'
 
 	echo
-	echo 'gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/" use-theme-colors false'
+	echo "gsettings set \"org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/\" use-theme-colors false"
 	gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/" use-theme-colors false
 
 
@@ -75,17 +85,17 @@ gnome_terminal_conf_set () {
 	gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/" background-color 'rgb(0,0,0)'
 
 
-	echo
-	echo "gsettings set \"org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/\" use-theme-transparency false"
-	gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/" use-theme-transparency false
+	#echo
+	#echo "gsettings set \"org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/\" use-theme-transparency false"
+	#gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/" use-theme-transparency false
 
-	echo
-	echo "gsettings set \"org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/\" use-transparent-background true"
-	gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/" use-transparent-background true
+	#echo
+	#echo "gsettings set \"org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/\" use-transparent-background true"
+	#gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/" use-transparent-background true
 
-	echo
-	echo "gsettings set \"org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/\" background-transparency-percent 15"
-	gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/" background-transparency-percent 15
+	#echo
+	#echo "gsettings set \"org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/\" background-transparency-percent 15"
+	#gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/" background-transparency-percent 15
 
 	echo
 	echo "gsettings set \"org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/\" visible-name 'Default'"
@@ -104,24 +114,36 @@ gnome_terminal_conf_set () {
 	gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/" scrollback-unlimited true
 
 
-	echo '#'
-	echo '### Tail: gnome_terminal_conf_set ##############################################'
+
+	echo
+	echo "##"
+	echo "### Tail: gnome_terminal_config_install"
+	echo "################################################################################"
+	echo
+
+
 	echo
 
 }
-#
-### Tail: conf_set #############################################################
+
+##
+### Tail: config_install
+################################################################################
 
 
-### Head: main #################################################################
-#
+################################################################################
+### Head: Main
+##
+
 gnome_terminal_main_install () {
 
-	#gnome_terminal_pkg_install
-	gnome_terminal_conf_set
+	gnome_terminal_package_install
+	gnome_terminal_config_install
 
 }
 
 gnome_terminal_main_install
-#
-### Tail: main #################################################################
+
+##
+### Tail: Main
+################################################################################
