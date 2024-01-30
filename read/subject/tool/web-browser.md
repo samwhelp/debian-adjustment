@@ -8,3 +8,7 @@ parent: Tool
 
 # Web Browser
 
+| Web Browser | Adjustment |
+| --- | --- |
+| [firefox](https://samwhelp.github.io/debian-adjustment/read/subject/tool/web-browser/firefox.html) | Adjustment |
+| [falkon](https://samwhelp.github.io/debian-adjustment/read/subject/tool/web-browser/falkon.html) | Adjustment |

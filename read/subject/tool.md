@@ -72,6 +72,10 @@ has_children: true
 
 ## Web Browser
 
+| [Web Browser](https://samwhelp.github.io/debian-adjustment/read/subject/tool/web-browser.html) | Adjustment |
+| --- | --- |
+| [firefox](https://samwhelp.github.io/debian-adjustment/read/subject/tool/web-browser/firefox.html) | Adjustment |
+| [falkon](https://samwhelp.github.io/debian-adjustment/read/subject/tool/web-browser/falkon.html) | Adjustment |
 
 
 ## Terminal
