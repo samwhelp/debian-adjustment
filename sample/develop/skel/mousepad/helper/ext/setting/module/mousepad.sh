@@ -7,6 +7,7 @@
 mousepad_var_init () {
 
 	THE_MOUSEPAD_GSCHEMA_OVERRIDE_FILE_NAME="50_mousepad.gschema.override"
+
 	THE_MOUSEPAD_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH="${THE_SOURCE_GSCHEMA_DIR_PATH}/${THE_MOUSEPAD_GSCHEMA_OVERRIDE_FILE_NAME}"
 	THE_MOUSEPAD_TARGET_GSCHEMA_OVERRIDE_FILE_PATH="${THE_TARGET_GSCHEMA_DIR_PATH}/${THE_MOUSEPAD_GSCHEMA_OVERRIDE_FILE_NAME}"
 
@@ -29,6 +30,18 @@ mousepad_var_dump () {
 	util_debug_echo
 
 
+	util_debug_echo
+	util_debug_echo "##"
+	util_debug_echo "## ## Mousepad / Gschema"
+	util_debug_echo "##"
+	util_debug_echo
+
+	util_debug_echo "THE_MOUSEPAD_GSCHEMA_OVERRIDE_FILE_NAME=${THE_MOUSEPAD_GSCHEMA_OVERRIDE_FILE_NAME}"
+	util_debug_echo
+
+	util_debug_echo "THE_MOUSEPAD_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH=${THE_MOUSEPAD_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH}"
+	util_debug_echo "THE_MOUSEPAD_TARGET_GSCHEMA_OVERRIDE_FILE_PATH=${THE_MOUSEPAD_TARGET_GSCHEMA_OVERRIDE_FILE_PATH}"
+	util_debug_echo
 
 	util_debug_echo
 	util_debug_echo "##"

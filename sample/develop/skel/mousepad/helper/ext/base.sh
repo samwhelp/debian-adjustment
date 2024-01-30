@@ -214,11 +214,20 @@ base_var_init () {
 	##
 
 
-	THE_SOURCE_GSCHEMA_DIR_PATH="${THE_MASTER_ASSET_OVERLAY_DIR_PATH}/usr/share/glib-2.0/schemas"
+	THE_SOURCE_OVERLAY_DIR_PATH="${THE_MASTER_ASSET_OVERLAY_DIR_PATH}"
+	THE_TARGET_OVERLAY_DIR_PATH="/"
+
+
+	THE_SOURCE_GSCHEMA_DIR_PATH="${THE_SOURCE_OVERLAY_DIR_PATH}/usr/share/glib-2.0/schemas"
 	THE_TARGET_GSCHEMA_DIR_PATH="/usr/share/glib-2.0/schemas"
 
-	THE_SOURCE_DCONFDB_DIR_PATH="${THE_MASTER_ASSET_OVERLAY_DIR_PATH}/etc/dconf/db/distro.d"
+
+	THE_SOURCE_DCONFDB_DIR_PATH="${THE_SOURCE_OVERLAY_DIR_PATH}/etc/dconf/db/distro.d"
 	THE_TARGET_DCONFDB_DIR_PATH="/etc/dconf/db/distro.d"
+
+
+	THE_SOURCE_DCONF_PROFILE_FILE_PATH="${THE_SOURCE_OVERLAY_DIR_PATH}/etc/dconf/profile/user"
+	THE_TARGET_DCONF_PROFILE_FILE_PATH="/etc/dconf/profile/user"
 
 
 	return 0
@@ -376,6 +385,31 @@ base_var_dump () {
 
 
 
+	util_debug_echo
+	util_debug_echo "##"
+	util_debug_echo "## ## Main Path / Ext / Setting"
+	util_debug_echo "##"
+	util_debug_echo
+
+	util_debug_echo "THE_MAIN_EXT_SETTING_DIR_NAME=${THE_MAIN_EXT_SETTING_DIR_NAME}"
+	util_debug_echo "THE_MAIN_EXT_SETTING_DIR_PATH=${THE_MAIN_EXT_SETTING_DIR_PATH}"
+	util_debug_echo
+
+
+	util_debug_echo
+	util_debug_echo "##"
+	util_debug_echo "## ## Main Path / Ext / Setting / Sub"
+	util_debug_echo "##"
+	util_debug_echo
+
+
+	util_debug_echo "THE_MAIN_EXT_SETTING_MODULE_DIR_NAME=${THE_MAIN_EXT_SETTING_MODULE_DIR_NAME}"
+	util_debug_echo "THE_MAIN_EXT_SETTING_MODULE_DIR_PATH=${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}"
+	util_debug_echo
+
+
+
+
 	##
 	############################################################################
 	##
@@ -411,6 +445,29 @@ base_var_dump () {
 
 	util_debug_echo "THE_MASTER_ASSET_OVERLAY_DIR_NAME=${THE_MASTER_ASSET_OVERLAY_DIR_NAME}"
 	util_debug_echo "THE_MASTER_ASSET_OVERLAY_DIR_PATH=${THE_MASTER_ASSET_OVERLAY_DIR_PATH}"
+	util_debug_echo
+
+
+	util_debug_echo
+	util_debug_echo "##"
+	util_debug_echo "## ## Master Path / Model"
+	util_debug_echo "##"
+	util_debug_echo
+
+	util_debug_echo "THE_SOURCE_OVERLAY_DIR_PATH=${THE_SOURCE_OVERLAY_DIR_PATH}"
+	util_debug_echo "THE_TARGET_OVERLAY_DIR_PATH=${THE_TARGET_OVERLAY_DIR_PATH}"
+	util_debug_echo
+
+	util_debug_echo "THE_SOURCE_GSCHEMA_DIR_PATH=${THE_SOURCE_GSCHEMA_DIR_PATH}"
+	util_debug_echo "THE_TARGET_GSCHEMA_DIR_PATH=${THE_TARGET_GSCHEMA_DIR_PATH}"
+	util_debug_echo
+
+	util_debug_echo "THE_SOURCE_DCONFDB_DIR_PATH=${THE_SOURCE_DCONFDB_DIR_PATH}"
+	util_debug_echo "THE_TARGET_DCONFDB_DIR_PATH=${THE_TARGET_DCONFDB_DIR_PATH}"
+	util_debug_echo
+
+	util_debug_echo "THE_SOURCE_DCONF_PROFILE_FILE_PATH=${THE_SOURCE_DCONF_PROFILE_FILE_PATH}"
+	util_debug_echo "THE_TARGET_DCONF_PROFILE_FILE_PATH=${THE_TARGET_DCONF_PROFILE_FILE_PATH}"
 	util_debug_echo
 
 
