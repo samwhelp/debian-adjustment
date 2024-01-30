@@ -39,7 +39,7 @@ main_prototype_install () {
 
 	#util_error_echo 'main_prototype_install'
 
-	budgie_prototype_install
+	budgie_keybind_main_prototype_install
 
 	return 0
 }

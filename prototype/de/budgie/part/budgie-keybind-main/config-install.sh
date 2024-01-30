@@ -39,7 +39,7 @@ main_config_install () {
 
 	#util_error_echo 'main_config_install'
 
-	budgie_config_install
+	budgie_keybind_main_config_install
 
 	return 0
 }

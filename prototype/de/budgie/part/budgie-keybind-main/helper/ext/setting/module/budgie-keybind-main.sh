@@ -4,7 +4,7 @@
 ### Head: Setting / Module / Budgie / Variable
 ##
 
-budgie_var_init () {
+budgie_keybind_main_var_init () {
 
 	THE_BUDGIE_KEYBIND_MAIN_GSCHEMA_OVERRIDE_FILE_NAME="50_budgie-keybind-main.gschema.override"
 
@@ -22,7 +22,7 @@ budgie_var_init () {
 
 }
 
-budgie_var_dump () {
+budgie_keybind_main_var_dump () {
 
 
 	is_not_debug && return 0
@@ -32,7 +32,7 @@ budgie_var_dump () {
 
 	util_debug_echo
 	util_debug_echo "################################################################################"
-	util_debug_echo "### Head: budgie_var_dump"
+	util_debug_echo "### Head: budgie_keybind_main_var_dump"
 	util_debug_echo "##"
 	util_debug_echo
 
@@ -61,7 +61,7 @@ budgie_var_dump () {
 
 	util_debug_echo
 	util_debug_echo "##"
-	util_debug_echo "### Tail: budgie_var_dump"
+	util_debug_echo "### Tail: budgie_keybind_main_var_dump"
 	util_debug_echo "################################################################################"
 	util_debug_echo
 
@@ -75,8 +75,8 @@ budgie_var_dump () {
 
 }
 
-budgie_var_init
-budgie_var_dump
+budgie_keybind_main_var_init
+budgie_keybind_main_var_dump
 
 ##
 ### Tail: Setting / Module / Budgie / Variable
@@ -106,19 +106,19 @@ sys_glib_compile_schemas () {
 ### Head: Setting / Module / Budgie / Portal
 ##
 
-budgie_config_install () {
+budgie_keybind_main_config_install () {
 
-	util_error_echo "budgie_config_install"
+	util_error_echo "budgie_keybind_main_config_install"
 
-	budgie_settings_set_all
+	budgie_keybind_main_settings_set_all
 
 	return 0
 }
 
 
-budgie_asset_install () {
+budgie_keybind_main_asset_install () {
 
-	#util_error_echo "budgie_asset_install"
+	#util_error_echo "budgie_keybind_main_asset_install"
 
 	util_error_echo "!!! Do Nothing !!!"
 
@@ -126,11 +126,11 @@ budgie_asset_install () {
 }
 
 
-budgie_prototype_install () {
+budgie_keybind_main_prototype_install () {
 
-	#util_error_echo "budgie_prototype_install"
+	#util_error_echo "budgie_keybind_main_prototype_install"
 
-	budgie_gschema_put_all
+	budgie_keybind_main_gschema_put_all
 
 	sys_glib_compile_schemas
 
@@ -147,7 +147,7 @@ budgie_prototype_install () {
 ### Head: Setting / Module / Budgie / Settings
 ##
 
-budgie_settings_set_all () {
+budgie_keybind_main_settings_set_all () {
 
 
 	return 0
@@ -162,17 +162,17 @@ budgie_settings_set_all () {
 ### Head: Setting / Module / Budgie / Gschema
 ##
 
-budgie_gschema_put_all () {
+budgie_keybind_main_gschema_put_all () {
 
-	budgie_gschema_put_keybind
+	budgie_keybind_main_gschema_put_keybind
 
-	budgie_gschema_put_workspace
+	budgie_keybind_main_gschema_put_workspace
 
 	return 0
 }
 
 
-budgie_gschema_put_keybind () {
+budgie_keybind_main_gschema_put_keybind () {
 
 	local source_gschema_override_file_path="${THE_BUDGIE_KEYBIND_MAIN_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH}"
 
@@ -191,7 +191,7 @@ budgie_gschema_put_keybind () {
 	return 0
 }
 
-budgie_gschema_put_workspace () {
+budgie_keybind_main_gschema_put_workspace () {
 
 	local source_gschema_override_file_path="${THE_BUDGIE_WORKSPACE_MAIN_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH}"
 

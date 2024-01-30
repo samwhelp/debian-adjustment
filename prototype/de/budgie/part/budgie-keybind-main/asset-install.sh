@@ -39,7 +39,7 @@ main_asset_install () {
 
 	#util_error_echo 'main_asset_install'
 
-	budgie_asset_install
+	budgie_keybind_main_asset_install
 
 	return 0
 }
