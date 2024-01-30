@@ -226,6 +226,10 @@ base_var_init () {
 	THE_TARGET_DCONFDB_DIR_PATH="/etc/dconf/db/distro.d"
 
 
+	THE_SOURCE_DCONF_PROFILE_FILE_PATH="${THE_SOURCE_OVERLAY_DIR_PATH}/etc/dconf/profile/user"
+	THE_TARGET_DCONF_PROFILE_FILE_PATH="/etc/dconf/profile/user"
+
+
 	return 0
 
 }
@@ -461,6 +465,12 @@ base_var_dump () {
 	util_debug_echo "THE_SOURCE_DCONFDB_DIR_PATH=${THE_SOURCE_DCONFDB_DIR_PATH}"
 	util_debug_echo "THE_TARGET_DCONFDB_DIR_PATH=${THE_TARGET_DCONFDB_DIR_PATH}"
 	util_debug_echo
+
+	util_debug_echo "THE_SOURCE_DCONF_PROFILE_FILE_PATH=${THE_SOURCE_DCONF_PROFILE_FILE_PATH}"
+	util_debug_echo "THE_TARGET_DCONF_PROFILE_FILE_PATH=${THE_TARGET_DCONF_PROFILE_FILE_PATH}"
+	util_debug_echo
+
+
 
 
 	util_debug_echo
