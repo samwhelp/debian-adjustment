@@ -1,6 +1,6 @@
 ---
 title: Kate
-nav_order: 3011
+nav_order: 3015
 has_children: false
 parent: Text Editor
 grand_parent: Tool
