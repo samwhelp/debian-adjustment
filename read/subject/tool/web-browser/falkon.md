@@ -36,4 +36,3 @@ sudo apt-get install falkon
 ## Link
 
 * KDE / [Applications](https://apps.kde.org/) / [Falkon](https://apps.kde.org/falkon/)
-* KDE / [應用程式](https://apps.kde.org/zh-tw/) / [Falkon](https://apps.kde.org/zh-tw/falkon/)
