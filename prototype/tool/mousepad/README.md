@@ -57,6 +57,21 @@ make asset-install
 ```
 
 
+### prototype-install
+
+run
+
+``` sh
+./prototype-install.sh
+```
+
+or run
+
+``` sh
+make prototype-install
+```
+
+
 ### config-install
 
 run
