@@ -16,6 +16,10 @@
 | [geany](https://packages.debian.org/stable/geany) |
 
 
+## Geany
+
+* Geany / [Themes](https://www.geany.org/download/themes/)
+* GitHub / [geany-themes](https://github.com/geany/geany-themes)
 
 
 ## Usage
