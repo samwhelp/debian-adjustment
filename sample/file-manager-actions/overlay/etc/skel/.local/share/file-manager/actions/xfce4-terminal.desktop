@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Action
+Tooltip=Open in xfce4-terminal
+Name=xfce4-terminal
+Profiles=profile-one;
+Icon=utilities-terminal
+
+
+[X-Action-Profile profile-one]
+MimeTypes=inode/directory;
+Exec=xfce4-terminal --working-directory %f
+Name=Default profile
