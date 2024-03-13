@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Action
+Tooltip=Open in Thunar
+Name=Thunar
+Profiles=profile-one;
+Icon=folder
+
+
+[X-Action-Profile profile-one]
+MimeTypes=inode/directory;
+Exec=thunar %F
+Name=Default profile
