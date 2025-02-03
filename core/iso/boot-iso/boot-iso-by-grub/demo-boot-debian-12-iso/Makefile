@@ -54,7 +54,7 @@ help:
 
 
 prepare:
-	sudo pacman -Sy --needed curl
+	sudo apt-get install wget curl
 .PHONY: prepare
 
 
@@ -113,6 +113,7 @@ remove-40_custom:
 remove-41_custom:
 	sudo rm -f "/boot/grub/custom.cfg"
 .PHONY: remove-41_custom
+
 
 
 
