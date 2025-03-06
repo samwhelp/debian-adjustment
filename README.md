@@ -31,8 +31,8 @@
 
 | Tool Adjustment |
 | --- |
-| [tool-config-common](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/full/tool-config-common) |
-| [tool-config-kde](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/full/tool-config-kde) |
+| [tool-config-common](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/full/dark/tool-config-common) |
+| [tool-config-kde](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/full/dark/tool-config-kde) |
 
 
 | [Tool](https://samwhelp.github.io/debian-adjustment/read/subject/tool.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part) | Subject |
