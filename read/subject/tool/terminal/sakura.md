@@ -22,7 +22,7 @@ grand_parent: Tool
 
 | Adjustment |
 | --- |
-| [sakura](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/sakura) |
+| [sakura](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/sakura) |
 
 
 ## Debian Package Search

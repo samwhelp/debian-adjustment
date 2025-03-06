@@ -22,7 +22,7 @@ grand_parent: Tool
 
 | Adjustment |
 | --- |
-| [mousepad](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/mousepad) |
+| [mousepad](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/mousepad) |
 
 
 ## Debian Package Search

@@ -22,7 +22,7 @@ grand_parent: Tool
 
 | Adjustment |
 | --- |
-| [thunar](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/thunar) |
+| [thunar](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/thunar) |
 
 
 ## Debian Package Search

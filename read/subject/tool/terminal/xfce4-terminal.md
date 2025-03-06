@@ -22,7 +22,7 @@ grand_parent: Tool
 
 | Adjustment |
 | --- |
-| [xfce4-terminal](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/xfce4-terminal) |
+| [xfce4-terminal](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/xfce4-terminal) |
 
 
 ## Debian Package Search

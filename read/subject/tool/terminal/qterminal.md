@@ -22,7 +22,7 @@ grand_parent: Tool
 
 | Adjustment |
 | --- |
-| [qterminal](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/qterminal) |
+| [qterminal](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/qterminal) |
 
 
 ## Debian Package Search

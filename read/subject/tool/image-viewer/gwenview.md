@@ -22,7 +22,7 @@ grand_parent: Tool
 
 | Adjustment |
 | --- |
-| [gwenview](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/gwenview) |
+| [gwenview](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/gwenview) |
 
 
 ## Debian Package Search

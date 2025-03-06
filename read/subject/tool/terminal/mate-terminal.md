@@ -21,7 +21,7 @@ grand_parent: Tool
 
 | Adjustment |
 | --- |
-| [mate-terminal](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/mate-terminal) |
+| [mate-terminal](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/mate-terminal) |
 
 
 ## Debian Package Search

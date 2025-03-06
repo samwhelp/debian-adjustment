@@ -22,7 +22,7 @@ grand_parent: Tool
 
 | Adjustment |
 | --- |
-| [kate](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/kate) |
+| [kate](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/kate) |
 
 
 ## Debian Package Search

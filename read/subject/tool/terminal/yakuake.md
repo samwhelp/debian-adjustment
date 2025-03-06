@@ -22,7 +22,7 @@ grand_parent: Tool
 
 | Adjustment |
 | --- |
-| [yakuake](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/yakuake) |
+| [yakuake](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/yakuake) |
 
 
 ## Debian Package Search

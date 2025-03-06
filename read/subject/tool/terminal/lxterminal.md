@@ -22,7 +22,7 @@ grand_parent: Tool
 
 | Adjustment |
 | --- |
-| [lxterminal](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/lxterminal) |
+| [lxterminal](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/lxterminal) |
 
 
 ## Debian Package Search

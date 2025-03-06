@@ -22,7 +22,7 @@ grand_parent: Tool
 
 | Adjustment |
 | --- |
-| [viewnior](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/viewnior) |
+| [viewnior](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/viewnior) |
 
 
 ## Debian Package Search

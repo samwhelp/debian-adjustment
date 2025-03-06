@@ -22,7 +22,7 @@ grand_parent: Tool
 
 | Adjustment |
 | --- |
-| [krunner](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/krunner) |
+| [krunner](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/krunner) |
 
 
 ## Debian Package Search

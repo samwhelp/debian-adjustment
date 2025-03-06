@@ -22,7 +22,7 @@ grand_parent: Tool
 
 | Adjustment |
 | --- |
-| [pcmanfm](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/pcmanfm) |
+| [pcmanfm](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/pcmanfm) |
 
 
 ## Debian Package Search

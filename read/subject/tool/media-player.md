@@ -10,4 +10,4 @@ parent: Tool
 
 | Media Player | Adjustment |
 | --- | --- |
-| [mpv](https://samwhelp.github.io/debian-adjustment/read/subject/tool/media-player/mpv.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/mpv) |
+| [mpv](https://samwhelp.github.io/debian-adjustment/read/subject/tool/media-player/mpv.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/mpv) |

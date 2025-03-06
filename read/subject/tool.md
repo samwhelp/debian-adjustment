@@ -10,7 +10,7 @@ has_children: true
 
 ## Project
 
-* Config / [Tool](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool)
+* Config / [Tool](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part)
 
 
 ## Subject
@@ -41,8 +41,8 @@ has_children: true
 
 | [Launcher](https://samwhelp.github.io/debian-adjustment/read/subject/tool/launcher.html) | Adjustment |
 | --- | --- |
-| [rofi](https://samwhelp.github.io/debian-adjustment/read/subject/tool/launcher/rofi.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/rofi) |
-| [krunner](https://samwhelp.github.io/debian-adjustment/read/subject/tool/launcher/krunner.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/krunner) |
+| [rofi](https://samwhelp.github.io/debian-adjustment/read/subject/tool/launcher/rofi.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/rofi) |
+| [krunner](https://samwhelp.github.io/debian-adjustment/read/subject/tool/launcher/krunner.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/krunner) |
 
 
 
@@ -51,10 +51,10 @@ has_children: true
 
 | [File Manager](https://samwhelp.github.io/debian-adjustment/read/subject/tool/file-manager.html) | Adjustment |
 | --- | --- |
-| [dolphin](https://samwhelp.github.io/debian-adjustment/read/subject/tool/file-manager/dolphin.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/dolphin) |
-| [pcmanfm-qt](https://samwhelp.github.io/debian-adjustment/read/subject/tool/file-manager/pcmanfm-qt.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/pcmanfm-qt) |
-| [pcmanfm](https://samwhelp.github.io/debian-adjustment/read/subject/tool/file-manager/pcmanfm.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/pcmanfm) |
-| [thunar](https://samwhelp.github.io/debian-adjustment/read/subject/tool/file-manager/thunar.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/thunar) |
+| [dolphin](https://samwhelp.github.io/debian-adjustment/read/subject/tool/file-manager/dolphin.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/dolphin) |
+| [pcmanfm-qt](https://samwhelp.github.io/debian-adjustment/read/subject/tool/file-manager/pcmanfm-qt.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/pcmanfm-qt) |
+| [pcmanfm](https://samwhelp.github.io/debian-adjustment/read/subject/tool/file-manager/pcmanfm.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/pcmanfm) |
+| [thunar](https://samwhelp.github.io/debian-adjustment/read/subject/tool/file-manager/thunar.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/thunar) |
 
 
 
@@ -63,9 +63,9 @@ has_children: true
 
 | [Text Editor]((https://samwhelp.github.io/debian-adjustment/read/subject/tool/text-editor.html)) | Adjustment |
 | --- | --- |
-| [mousepad](https://samwhelp.github.io/debian-adjustment/read/subject/tool/text-editor/mousepad.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/mousepad) |
-| [kate](https://samwhelp.github.io/debian-adjustment/read/subject/tool/text-editor/kate.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/kate) |
-| [kwrite](https://samwhelp.github.io/debian-adjustment/read/subject/tool/text-editor/kwrite.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/kwrite) |
+| [mousepad](https://samwhelp.github.io/debian-adjustment/read/subject/tool/text-editor/mousepad.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/mousepad) |
+| [kate](https://samwhelp.github.io/debian-adjustment/read/subject/tool/text-editor/kate.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/kate) |
+| [kwrite](https://samwhelp.github.io/debian-adjustment/read/subject/tool/text-editor/kwrite.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/kwrite) |
 
 
 
@@ -82,14 +82,14 @@ has_children: true
 
 | [Terminal](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal.html) | Adjustment |
 | --- | --- |
-| [sakura](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/sakura.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/sakura) |
-| [xfce4-terminal](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/xfce4-terminal.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/xfce4-terminal) |
-| [konsole](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/konsole.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/sakura) |
-| [yakuake](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/yakuake.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/sakura) |
-| [qterminal](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/qterminal.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/qterminal) |
-| [gnome-terminal](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/gnome-terminal.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/gnome-terminal) |
-| [mate-terminal](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/mate-terminal.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/mate-terminal) |
-| [lxterminal](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/lxterminal.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/lxterminal) |
+| [sakura](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/sakura.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/sakura) |
+| [xfce4-terminal](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/xfce4-terminal.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/xfce4-terminal) |
+| [konsole](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/konsole.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/sakura) |
+| [yakuake](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/yakuake.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/sakura) |
+| [qterminal](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/qterminal.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/qterminal) |
+| [gnome-terminal](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/gnome-terminal.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/gnome-terminal) |
+| [mate-terminal](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/mate-terminal.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/mate-terminal) |
+| [lxterminal](https://samwhelp.github.io/debian-adjustment/read/subject/tool/terminal/lxterminal.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/lxterminal) |
 
 
 
@@ -98,8 +98,8 @@ has_children: true
 
 | [Image Viewer](https://samwhelp.github.io/debian-adjustment/read/subject/tool/image-viewer.html) | Adjustment |
 | --- | --- |
-| [viewnior](https://samwhelp.github.io/debian-adjustment/read/subject/tool/image-viewer/viewnior.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/viewnior) |
-| [gwenview](https://samwhelp.github.io/debian-adjustment/read/subject/tool/image-viewer/gwenview.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/gwenview) |
+| [viewnior](https://samwhelp.github.io/debian-adjustment/read/subject/tool/image-viewer/viewnior.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/viewnior) |
+| [gwenview](https://samwhelp.github.io/debian-adjustment/read/subject/tool/image-viewer/gwenview.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/gwenview) |
 
 
 
@@ -108,4 +108,4 @@ has_children: true
 
 | [Media Player](https://samwhelp.github.io/debian-adjustment/read/subject/tool/media-player.html) | Adjustment |
 | --- | --- |
-| [mpv](https://samwhelp.github.io/debian-adjustment/read/subject/tool/media-player/mpv.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/mpv) |
+| [mpv](https://samwhelp.github.io/debian-adjustment/read/subject/tool/media-player/mpv.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/mpv) |

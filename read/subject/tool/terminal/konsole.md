@@ -22,7 +22,7 @@ grand_parent: Tool
 
 | Adjustment |
 | --- |
-| [konsole](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/konsole) |
+| [konsole](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/konsole) |
 
 
 ## Debian Package Search
