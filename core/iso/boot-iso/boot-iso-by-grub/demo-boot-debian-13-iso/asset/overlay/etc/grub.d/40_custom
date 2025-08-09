@@ -1,0 +1,133 @@
+#!/bin/sh
+exec tail -n +3 $0
+# This file provides an easy way to add custom menu entries.  Simply type the
+# menu entries you want to add after this comment.  Be careful not to change
+# the 'exec tail' line above.
+
+
+
+
+menuentry "Debian 13 ISO / Xfce" --class Debian {
+	set iso_file="/opt/iso/debian/13/debian-live-13.0.0-amd64-xfce.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="components splash quiet"
+	#set boot_option="components locales=zh_TW.UTF-8 quiet splash"
+	linux (loop)/live/vmlinuz boot=live buuid=$iso_partition_uuid findiso=$iso_file $boot_option
+	initrd (loop)/live/initrd.img
+}
+
+
+
+
+menuentry "Debian 13 ISO / Mate" --class Debian {
+	set iso_file="/opt/iso/debian/13/debian-live-13.0.0-amd64-mate.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="components splash quiet"
+	#set boot_option="components locales=zh_TW.UTF-8 quiet splash"
+	linux (loop)/live/vmlinuz boot=live buuid=$iso_partition_uuid findiso=$iso_file $boot_option
+	initrd (loop)/live/initrd.img
+}
+
+
+
+
+menuentry "Debian 13 ISO / Cinnamon" --class Debian {
+	set iso_file="/opt/iso/debian/13/debian-live-13.0.0-amd64-cinnamon.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="components splash quiet"
+	#set boot_option="components locales=zh_TW.UTF-8 quiet splash"
+	linux (loop)/live/vmlinuz boot=live buuid=$iso_partition_uuid findiso=$iso_file $boot_option
+	initrd (loop)/live/initrd.img
+}
+
+
+
+
+menuentry "Debian 13 ISO / Gnome" --class Debian {
+	set iso_file="/opt/iso/debian/13/debian-live-13.0.0-amd64-gnome.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="components splash quiet"
+	#set boot_option="components locales=zh_TW.UTF-8 quiet splash"
+	linux (loop)/live/vmlinuz boot=live buuid=$iso_partition_uuid findiso=$iso_file $boot_option
+	initrd (loop)/live/initrd.img
+}
+
+
+
+
+menuentry "Debian 13 ISO / Kde" --class Debian {
+	set iso_file="/opt/iso/debian/13/debian-live-13.0.0-amd64-kde.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="components splash quiet"
+	#set boot_option="components locales=zh_TW.UTF-8 quiet splash"
+	linux (loop)/live/vmlinuz boot=live buuid=$iso_partition_uuid findiso=$iso_file $boot_option
+	initrd (loop)/live/initrd.img
+}
+
+
+
+
+menuentry "Debian 13 ISO / Lxde" --class Debian {
+	set iso_file="/opt/iso/debian/13/debian-live-13.0.0-amd64-lxde.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="components splash quiet"
+	#set boot_option="components locales=zh_TW.UTF-8 quiet splash"
+	linux (loop)/live/vmlinuz boot=live buuid=$iso_partition_uuid findiso=$iso_file $boot_option
+	initrd (loop)/live/initrd.img
+}
+
+
+
+
+menuentry "Debian 13 ISO / Lxqt" --class Debian {
+	set iso_file="/opt/iso/debian/13/debian-live-13.0.0-amd64-lxqt.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="components splash quiet"
+	#set boot_option="components locales=zh_TW.UTF-8 quiet splash"
+	linux (loop)/live/vmlinuz boot=live buuid=$iso_partition_uuid findiso=$iso_file $boot_option
+	initrd (loop)/live/initrd.img
+}
+
+
+
+
+menuentry "Debian 13 ISO / Standard" --class Debian {
+	set iso_file="/opt/iso/debian/13/debian-live-13.0.0-amd64-standard.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="components splash quiet"
+	#set boot_option="components locales=zh_TW.UTF-8 quiet splash"
+	linux (loop)/live/vmlinuz boot=live buuid=$iso_partition_uuid findiso=$iso_file $boot_option
+	initrd (loop)/live/initrd.img
+}
