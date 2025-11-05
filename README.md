@@ -12,8 +12,69 @@
 
 ## Subject
 
+* [Script](#script)
+* [Debian Respin](#debian-respin)
 * [Packaging](#packaging)
 * [Tool](#tool)
+* [Link](#link)
+
+
+
+
+## Script
+
+| Script |
+| ------ |
+| [Debian Config](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main) |
+| [Tool Config](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part) |
+
+
+
+
+## Debian Respin
+
+| Link | GitHub |
+| ---- | ------ |
+| [Debian Xfce Adjustment](https://samwhelp.github.io/debian-xfce-adjustment/) | [GitHub](https://github.com/samwhelp/debian-xfce-adjustment) |
+| [Debian Kde Plasma Adjustment](https://samwhelp.github.io/debian-kde-plasma-adjustment/) | [GitHub](https://github.com/samwhelp/debian-kde-plasma-adjustment) |
+| [Debian Gnome Shell Adjustment](https://samwhelp.github.io/debian-gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/debian-gnome-shell-adjustment) |
+| [Debian Cinnamon Adjustment](https://samwhelp.github.io/debian-cinnamon-adjustment/) | [GitHub](https://github.com/samwhelp/debian-cinnamon-adjustment) |
+| [Debian Mate Adjustment](https://samwhelp.github.io/debian-mate-adjustment/) | [GitHub](https://github.com/samwhelp/debian-mate-adjustment) |
+| [Debian Budgie Adjustment](https://samwhelp.github.io/debian-budgie-adjustment/) | [GitHub](https://github.com/samwhelp/debian-budgie-adjustment) |
+| [Debian Lxqt Adjustment](https://samwhelp.github.io/debian-lxqt-adjustment/) | [GitHub](https://github.com/samwhelp/debian-lxqt-adjustment) |
+| [Debian Lxde Adjustment](https://samwhelp.github.io/debian-lxde-adjustment/) | [GitHub](https://github.com/samwhelp/debian-lxde-adjustment) |
+
+
+
+
+| Link | GitHub |
+| ---- | ------ |
+| [Debian Cosmic Adjustment](https://samwhelp.github.io/debian-cosmic-adjustment/) | [GitHub](https://github.com/samwhelp/debian-cosmic-adjustment) |
+| [Debian Hyprland Adjustment](https://samwhelp.github.io/debian-hyprland-adjustment/) | [GitHub](https://github.com/samwhelp/debian-hyprland-adjustment) |
+| [Debian Sway Adjustment](https://samwhelp.github.io/debian-sway-adjustment/) | [GitHub](https://github.com/samwhelp/debian-sway-adjustment) |
+| [Debian Labwc Adjustment](https://samwhelp.github.io/debian-labwc-adjustment/) | [GitHub](https://github.com/samwhelp/debian-labwc-adjustment) |
+| [Debian Wayfire Adjustment](https://samwhelp.github.io/debian-wayfire-adjustment/) | [GitHub](https://github.com/samwhelp/debian-wayfire-adjustment) |
+| [Debian River Adjustment](https://samwhelp.github.io/debian-river-adjustment/) | [GitHub](https://github.com/samwhelp/debian-river-adjustment) |
+
+
+
+
+| Link | GitHub |
+| ---- | ------ |
+| [Debian Openbox Adjustment](https://samwhelp.github.io/debian-openbox-adjustment/) | [GitHub](https://github.com/samwhelp/debian-openbox-adjustment) |
+| [Debian Fluxbox Adjustment](https://samwhelp.github.io/debian-fluxbox-adjustment/) | [GitHub](https://github.com/samwhelp/debian-fluxbox-adjustment) |
+| [Debian Jwm Adjustment](https://samwhelp.github.io/debian-jwm-adjustment/) | [GitHub](https://github.com/samwhelp/debian-jwm-adjustment) |
+
+
+
+
+| Link | GitHub |
+| ---- | ------ |
+| [Debian Bspwm Adjustment](https://samwhelp.github.io/debian-bspwm-adjustment/) | [GitHub](https://github.com/samwhelp/debian-bspwm-adjustment) |
+| [Debian I3wm Adjustment](https://samwhelp.github.io/debian-i3wm-adjustment/) | [GitHub](https://github.com/samwhelp/debian-i3wm-adjustment) |
+| [Debian Herbstluftwm Adjustment](https://samwhelp.github.io/debian-herbstluftwm-adjustment/) | [GitHub](https://github.com/samwhelp/debian-herbstluftwm-adjustment) |
+| [Debian Cwm Adjustment](https://samwhelp.github.io/debian-cwm-adjustment/) | [GitHub](https://github.com/samwhelp/debian-cwm-adjustment) |
+| [Debian Spectrwm Adjustment](https://samwhelp.github.io/debian-spectrwm-adjustment/) | [GitHub](https://github.com/samwhelp/debian-spectrwm-adjustment) |
 
 
 
@@ -64,3 +125,14 @@
 | [viewnior](https://samwhelp.github.io/debian-adjustment/read/subject/tool/image-viewer/viewnior.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/viewnior) | [Image Viewer](https://samwhelp.github.io/debian-adjustment/read/subject/tool/image-viewer.html) |
 | [gwenview](https://samwhelp.github.io/debian-adjustment/read/subject/tool/image-viewer/gwenview.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/gwenview) | [Image Viewer](https://samwhelp.github.io/debian-adjustment/read/subject/tool/image-viewer.html) |
 | [mpv](https://samwhelp.github.io/debian-adjustment/read/subject/tool/media-player/mpv.html) | [Adjustment](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/main/tool-config/part/mpv) | [Media Player](https://samwhelp.github.io/debian-adjustment/read/subject/tool/media-player.html) |
+
+
+
+
+## Link
+
+| Link | GitHub |
+| ---- | ------ |
+| [Ubuntu Adjustment](https://samwhelp.github.io/ubutu-adjustment/) | [GitHub](https://github.com/samwhelp/ubutu-adjustment) |
+| [Fedora Adjustment](https://samwhelp.github.io/fedora-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-adjustment) |
+| [Archlinux Adjustment](https://samwhelp.github.io/archlinux-adjustment/) | [GitHub](https://github.com/samwhelp/archlinux-adjustment) |
