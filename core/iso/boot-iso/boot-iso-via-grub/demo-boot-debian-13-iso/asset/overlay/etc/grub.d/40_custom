@@ -8,7 +8,7 @@ exec tail -n +3 $0
 
 
 menuentry "Debian 13 ISO / Xfce" --class debian {
-	set iso_file="/opt/iso/debian/13/debian-live-13.5.0-amd64-xfce.iso"
+	set iso_file="/opt/iso/debian/13/debian-live-13.6.0-amd64-xfce.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
@@ -24,7 +24,7 @@ menuentry "Debian 13 ISO / Xfce" --class debian {
 
 
 menuentry "Debian 13 ISO / Mate" --class debian {
-	set iso_file="/opt/iso/debian/13/debian-live-13.5.0-amd64-mate.iso"
+	set iso_file="/opt/iso/debian/13/debian-live-13.6.0-amd64-mate.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
@@ -40,7 +40,7 @@ menuentry "Debian 13 ISO / Mate" --class debian {
 
 
 menuentry "Debian 13 ISO / Cinnamon" --class debian {
-	set iso_file="/opt/iso/debian/13/debian-live-13.5.0-amd64-cinnamon.iso"
+	set iso_file="/opt/iso/debian/13/debian-live-13.6.0-amd64-cinnamon.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
@@ -56,7 +56,7 @@ menuentry "Debian 13 ISO / Cinnamon" --class debian {
 
 
 menuentry "Debian 13 ISO / Gnome" --class debian {
-	set iso_file="/opt/iso/debian/13/debian-live-13.5.0-amd64-gnome.iso"
+	set iso_file="/opt/iso/debian/13/debian-live-13.6.0-amd64-gnome.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
@@ -72,7 +72,7 @@ menuentry "Debian 13 ISO / Gnome" --class debian {
 
 
 menuentry "Debian 13 ISO / Kde" --class debian {
-	set iso_file="/opt/iso/debian/13/debian-live-13.5.0-amd64-kde.iso"
+	set iso_file="/opt/iso/debian/13/debian-live-13.6.0-amd64-kde.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
@@ -88,7 +88,7 @@ menuentry "Debian 13 ISO / Kde" --class debian {
 
 
 menuentry "Debian 13 ISO / Lxde" --class debian {
-	set iso_file="/opt/iso/debian/13/debian-live-13.5.0-amd64-lxde.iso"
+	set iso_file="/opt/iso/debian/13/debian-live-13.6.0-amd64-lxde.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
@@ -104,7 +104,7 @@ menuentry "Debian 13 ISO / Lxde" --class debian {
 
 
 menuentry "Debian 13 ISO / Lxqt" --class debian {
-	set iso_file="/opt/iso/debian/13/debian-live-13.5.0-amd64-lxqt.iso"
+	set iso_file="/opt/iso/debian/13/debian-live-13.6.0-amd64-lxqt.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
@@ -120,7 +120,7 @@ menuentry "Debian 13 ISO / Lxqt" --class debian {
 
 
 menuentry "Debian 13 ISO / Standard" --class debian {
-	set iso_file="/opt/iso/debian/13/debian-live-13.5.0-amd64-standard.iso"
+	set iso_file="/opt/iso/debian/13/debian-live-13.6.0-amd64-standard.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
